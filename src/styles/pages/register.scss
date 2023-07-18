@@ -1,0 +1,59 @@
+.register{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    .register-cart{
+        display: flex;
+        flex-direction: column;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+        padding: 50px 30px;
+        margin: 0 auto;
+    input{
+        margin-bottom: 20px;
+        width: 200px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border-color: #fff;
+        background-color: #fff;
+        &:focus{
+            outline: none;
+            border-color: #25da9f;
+        }
+    }
+    .input{
+        position: relative;
+    }
+    .input_img{
+        // display: ;
+        
+        width: 82.9px;
+        position: absolute;
+        bottom: -1;
+        left: -1;
+        opacity: 0;
+    }
+   
+
+    .register-btn{
+        padding: 10px 15px;
+        margin-top: 15px;
+        // margin-bottom: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        background-color: #25da9f;
+        color: #fff;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+        } 
+    }
+    }
+    
+}

@@ -1,0 +1,15 @@
+.register-page,
+.user-page{
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: #25da9f;
+    color: #fff;
+    cursor: pointer;
+    &:hover:hover{
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+    } 
+}

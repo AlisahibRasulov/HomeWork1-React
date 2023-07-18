@@ -1,0 +1,44 @@
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: #f2f2f2;
+$background-color_2: #ddd;
+$background-color_3: #25da9f;
+
+#customers {
+	font-family: $font-family_1;
+	// border-collapse: collapse;
+	width: 100%;
+	td {
+		border: 1px solid #ddd;
+		padding: 8px;	
+		.delete-btn{
+			padding: 10px;
+			background-color: red;
+			border-radius: 10px;
+			color: #fff;
+		}
+	}
+	th {
+		border: 1px solid #ddd;
+		padding: 8px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: $background-color_3;
+		color: $color_1;
+	}
+	tr {
+		&:nth-child(even) {
+			background-color: $background-color_1;
+		}
+		&:hover {
+			background-color: $background-color_2;
+		}	
+	}
+}
+.table-border{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
